@@ -1,0 +1,69 @@
+{
+  "_from": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+  "_id": "auto-update-plus@0.5.8",
+  "_inBundle": false,
+  "_integrity": "sha512-c+EJizuu4qhGaHGjhfUvN+edgwPWkiEVIUDalr/492E7M0YxvFpgfBv3VM9My45zAFtE/+PewBIPXyOmXmp1oA==",
+  "_location": "/auto-update-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+  "_shasum": "c9d175e5e5a26d0f3de2d2dd6bcd50e0d271e9b6",
+  "_spec": "https://www.atom.io/api/packages/auto-update-plus/versions/0.5.8/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17606-58yhme.sz86j",
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-auto-update-plus/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jan T. Sott",
+      "url": "https://github.com/idleberg"
+    },
+    {
+      "name": "Yuji Nakayama",
+      "url": "https://github.com/yujinakayama"
+    }
+  ],
+  "dependencies": {
+    "getmac": "^1.4.1"
+  },
+  "deprecated": false,
+  "description": "Keep your Atom packages up to date.",
+  "devDependencies": {
+    "coffeelint-stylish": "^0.1.2",
+    "gulp": "^4.0.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-jsonlint": "^1.2.1",
+    "gulp-lesshint": "^5.0.2",
+    "husky": "^0.14.3",
+    "jshint": "^2.9.5"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/idleberg/atom-auto-update-plus#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "auto-update-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-auto-update-plus.git"
+  },
+  "scripts": {
+    "precommit": "gulp lint",
+    "test": "gulp lint"
+  },
+  "version": "0.5.8"
+}

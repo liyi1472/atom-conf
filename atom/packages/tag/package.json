@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+  "_id": "tag@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-X1fvTRFsAzFeOWifqKjGAGWVM5hCsecz84RjqKZde0MiqZDO89ThsqySJJgrVrrkNQXw6Lc+Ffps0EKX18i0Pw==",
+  "_location": "/tag",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+  "_shasum": "065ee689f7162afadd4bfe36e70cbfbfdf5ae94c",
+  "_spec": "https://www.atom.io/api/packages/tag/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17741-ideh8.d4d9oa",
+  "author": {
+    "name": "U-Zyn Chua",
+    "email": "chua@uzyn.com"
+  },
+  "bugs": {
+    "url": "https://github.com/uzyn/tag/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Sublime Text-inspired HTML & XML Tag menu and functions. Close Tag (⌥⌘.)",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/uzyn/tag#readme",
+  "keywords": [
+    "tag",
+    "html",
+    "xml",
+    "close",
+    "atom",
+    "sublime"
+  ],
+  "license": "MIT",
+  "main": "./lib/tag",
+  "name": "tag",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzyn/tag.git"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,75 @@
+{
+  "_from": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+  "_id": "satisfy-dependencies@0.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-YbXH5nbY95XL78vdoYmjHaCTuK7wQbdHdR5XP7BL0PccJJ5uQz4kvELu+sytLYo2RiVV1+XUFRndu/sOBbquLg==",
+  "_location": "/satisfy-dependencies",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+  "_shasum": "1fcf533ca0b76718aa1a5c07a718c8a88baad0c2",
+  "_spec": "https://www.atom.io/api/packages/satisfy-dependencies/versions/0.4.2/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17700-sot80n.p14t8",
+  "activationCommands": {
+    "atom-workspace": [
+      "satisfy-dependencies:all",
+      "satisfy-dependencies:atom-packages",
+      "satisfy-dependencies:node-packages"
+    ]
+  },
+  "author": {
+    "name": "Jan T. Sott",
+    "url": "http://github.com/idleberg"
+  },
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-satisfy-dependencies/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "pnpm": "^1.7.1",
+    "yarn": "^0.27.5"
+  },
+  "deprecated": false,
+  "description": "Satisfies Atom package dependencies and, optionally, Node dependencies of installed packages",
+  "devDependencies": {
+    "coffeelint-stylish": "^0.1.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsonlint": "^1.2.0",
+    "gulp-lesshint": "^4.0.0",
+    "jshint": "^2.9.4"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/idleberg/atom-satisfy-dependencies#readme",
+  "keywords": [
+    "developer",
+    "package-dependencies",
+    "dependencies"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "satisfy-dependencies",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-satisfy-dependencies.git"
+  },
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "version": "0.4.2"
+}

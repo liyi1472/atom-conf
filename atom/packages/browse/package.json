@@ -1,0 +1,85 @@
+{
+  "_from": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+  "_id": "browse@2.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-acvCP1x1MsgPFrgfpE69JvIzo4JJkkVdZNUBM2QizmKHlj0OzghqMHgOxv39Qglfk/x3ft/9Oe0Ibu27zqQbwA==",
+  "_location": "/browse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+  "_shasum": "7f50ae8231309f0e55965b35233ed4140e429d8c",
+  "_spec": "https://www.atom.io/api/packages/browse/versions/2.6.2/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17615-pv9ois.ehejr",
+  "activationCommands": {
+    "atom-workspace": [
+      "browse:.apm-folder",
+      "browse:app-data-folder",
+      "browse:application-folder",
+      "browse:configuration-folder",
+      "browse:packages-folder",
+      "browse:project-dependencies",
+      "browse:project-folders",
+      "browse:resources-folders",
+      "browse:reveal-file",
+      "browse:reveal-open-files"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-browse/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "find-up": "^4.1.0",
+    "util": "^0.12.1"
+  },
+  "deprecated": false,
+  "description": "Adds commands that let you quickly browse Atom-related folders or reveal files you're working on",
+  "devDependencies": {
+    "@types/atom": "^1.36.1",
+    "@types/node": "^13.7.0",
+    "husky": "^4.2.1",
+    "rimraf": "^3.0.1",
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://atom.io/packages/browse",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/browse",
+  "name": "browse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-browse.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "clean": "rimraf ./lib",
+    "dev": "webpack --mode none --watch",
+    "lint": "tslint --project ./",
+    "lint:fix": "tslint --fix --project ./",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "npm run lint"
+  },
+  "version": "2.6.2"
+}

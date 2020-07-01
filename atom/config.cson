@@ -1,0 +1,18 @@
+"*":
+  core:
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "cf46ede5-e40b-49cd-b150-06c8ae3cc1c1"
+  "php-cs-fixer": {}
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "

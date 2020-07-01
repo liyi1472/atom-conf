@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+  "_id": "sublimify@0.10.0",
+  "_inBundle": false,
+  "_integrity": "sha512-OTBdiJm4ZjZp9+7jU1WcPG5ddRwrIFmJbrnEtC68Cjq16+JtNA2Ot/+0Tr5eEFiRf7TYkh3fcXcLS4CiWmEibA==",
+  "_location": "/sublimify",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+  "_shasum": "3c267715643fe56b93390e57067f6e6a7be415ea",
+  "_spec": "https://www.atom.io/api/packages/sublimify/versions/0.10.0/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17737-vdgxzo.jes4",
+  "bugs": {
+    "url": "https://github.com/nshntarora/sublimify/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Sublime Text like UI theme for Atom",
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/nshntarora/sublimify#readme",
+  "keywords": [
+    "dark",
+    "gray",
+    "theme",
+    "ui",
+    "sublime",
+    "monokai",
+    "minimap"
+  ],
+  "license": "MIT",
+  "name": "sublimify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshntarora/sublimify.git"
+  },
+  "theme": "ui",
+  "version": "0.10.0"
+}

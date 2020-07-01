@@ -1,0 +1,65 @@
+{
+  "_from": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+  "_id": "sublime@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-vahQNq9/oPEGHUDh+5HpEoyNKxka5kaIM/GYQ95m0TZ899jd/ypXpb9oMN9n2H6szk/kkNmx/Gi2vPTcPHTaUQ==",
+  "_location": "/sublime",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+  "_shasum": "f536ed3b21c196c19c6b11fb9d7db8eb129e642d",
+  "_spec": "https://www.atom.io/api/packages/sublime/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17563-11qn6je.s7ug",
+  "bugs": {
+    "url": "https://github.com/idleberg/atom-sublime/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-package-deps": "^4.4.1"
+  },
+  "deprecated": false,
+  "description": "A meta-package to bring some of Sublime Text's features to Atom",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/idleberg/atom-sublime#readme",
+  "keywords": [
+    "sublime text",
+    "sublimetext"
+  ],
+  "license": "MIT",
+  "main": "./lib/sublime",
+  "name": "sublime",
+  "package-deps": [
+    "atom-wrap-in-tag",
+    "auto-update-plus",
+    "browse",
+    "build",
+    "ctrl-dir-scroll",
+    "minimap",
+    "multi-cursor",
+    "satisfy-dependencies",
+    "set-syntax",
+    "sublime-block-comment",
+    "sublime-style-column-selection",
+    "sublime-word-navigation",
+    "sublimify",
+    "tag",
+    "text-manipulation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idleberg/atom-sublime.git"
+  },
+  "version": "0.5.0"
+}

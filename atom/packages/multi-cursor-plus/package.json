@@ -1,0 +1,68 @@
+{
+  "_from": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+  "_id": "multi-cursor-plus@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mqzf5M/vj7uMSdjBr72C7QfdfofPbVGZ5TwdfK815HlGuFOrsw+4AQ8xjAl2iRQ8X/SrKqlrRRhj0SBNWn9tMA==",
+  "_location": "/multi-cursor-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+  "_shasum": "375e0caf6dd5c2e4848cba765be33155e7578767",
+  "_spec": "https://www.atom.io/api/packages/multi-cursor-plus/versions/1.2.0/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-19084-1as1jna.7wqjf",
+  "activationCommands": {
+    "atom-text-editor": [
+      "multi-cursor-plus:mark",
+      "multi-cursor-plus:move-up",
+      "multi-cursor-plus:move-down",
+      "multi-cursor-plus:move-left",
+      "multi-cursor-plus:move-right",
+      "multi-cursor-plus:move-to-beginning-of-word",
+      "multi-cursor-plus:move-to-end-of-word",
+      "multi-cursor-plus:move-to-first-character-of-line",
+      "multi-cursor-plus:move-to-end-of-line",
+      "multi-cursor-plus:move-to-top",
+      "multi-cursor-plus:move-to-bottom",
+      "multi-cursor-plus:select-up",
+      "multi-cursor-plus:select-down",
+      "multi-cursor-plus:select-left",
+      "multi-cursor-plus:select-right",
+      "multi-cursor-plus:select-to-beginning-of-word",
+      "multi-cursor-plus:select-to-end-of-word",
+      "multi-cursor-plus:select-to-first-character-of-line",
+      "multi-cursor-plus:select-to-end-of-line",
+      "multi-cursor-plus:select-to-top",
+      "multi-cursor-plus:select-to-bottom"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/kankaristo/atom-multi-cursor-plus/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Improved multi-cursor functionality for Atom",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/kankaristo/atom-multi-cursor-plus#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/multi-cursor-plus",
+  "name": "multi-cursor-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kankaristo/atom-multi-cursor-plus.git"
+  },
+  "version": "1.2.0"
+}

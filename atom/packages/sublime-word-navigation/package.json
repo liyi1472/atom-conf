@@ -1,0 +1,43 @@
+{
+  "_from": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+  "_id": "sublime-word-navigation@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-GcW0uIj2VVvxZxDQaVX4dkRcJ8rV4hrwEFlXwRO/78sa1tF6MH/QgGYGVgmEKa0g4mSQ/yUAKpwUMOaR9SbuVg==",
+  "_location": "/sublime-word-navigation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+  "_shasum": "94a4d80af53ac4cc2cd64b5ca2d45789181e4449",
+  "_spec": "https://www.atom.io/api/packages/sublime-word-navigation/versions/0.2.1/tarball",
+  "_where": "/private/var/folders/g7/_78j4_l163jfb1wk_qt63_sr0000gn/T/apm-install-dir-2020512-17732-1jk09g3.yp1x",
+  "activationCommands": {},
+  "bugs": {
+    "url": "https://github.com/rosston/sublime-word-navigation-atom/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Sublime Text and native-style word navigation in Atom with shortcuts.",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/rosston/sublime-word-navigation-atom#readme",
+  "license": "Unlicense",
+  "main": "./lib/sublime-word-navigation",
+  "name": "sublime-word-navigation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosston/sublime-word-navigation-atom.git"
+  },
+  "version": "0.2.1"
+}
